@@ -16,7 +16,7 @@
   <parent>
     <groupId>org.jacoco</groupId>
     <artifactId>org.jacoco.build</artifactId>
-    <version>70d5b98d.0.cosium-SNAPSHOT</version>
+    <version>70d5b98d.0.cosium</version>
     <relativePath>../org.jacoco.build</relativePath>
   </parent>
 
@@ -57,7 +57,7 @@
               <executable>java</executable>
               <arguments>
                 <argument>-cp</argument>
-                <classpath/>
+                <classpath />
                 <argument>org.jacoco.cli.internal.XmlDocumentation</argument>
                 <argument>${project.build.directory}/generated-documentation/cli.xml</argument>
               </arguments>
