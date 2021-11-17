@@ -15,7 +15,7 @@
 
   <groupId>org.jacoco</groupId>
   <artifactId>org.jacoco.build</artifactId>
-  <version>70d5b98d.1.cosium-SNAPSHOT</version>
+  <version>70d5b98d.1.cosium</version>
   <packaging>pom</packaging>
 
   <name>JaCoCo</name>
@@ -105,7 +105,7 @@
     <connection>scm:git:git://github.com/Cosium/jacoco.git</connection>
     <developerConnection>scm:git:ssh://git@github.com:Cosium/jacoco.git</developerConnection>
     <url>https://github.com/Cosium/jacoco</url>
-    <tag>HEAD</tag>
+    <tag>org.jacoco.build-70d5b98d.1.cosium</tag>
   </scm>
   <issueManagement>
     <system>GitHub</system>
